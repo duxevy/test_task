@@ -72,7 +72,6 @@ def launch_game(exec_file: str, screen_size: tuple) -> Popen:
     1. Launch .kkrieger via subprocess.Popen
     2. Waiting while pixel in the middle of screen gets not white or black (loading screen colors)
     3. Get into a game pressing on buttons via pyautogui's keyUp and keyDown
-
     :param exec_file: str: get_args().get("path")
     :param screen_size: tuple: get_screen_size()
     :return: subprocess.Popen
